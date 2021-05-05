@@ -1,5 +1,5 @@
-#ifndef __MYLIB_H__
-#define __MYLIB_H__
+#ifndef __FOO_H__
+#define __FOO_H__
 
 struct Foo {
 	int bar;
@@ -23,4 +23,4 @@ void foo_free(struct Foo *f);
  */
 void foo_hello_world(struct Foo *f);
 
-#endif /* __MYLIB_H__ */
+#endif /* __FOO_H__ */
