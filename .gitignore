@@ -1,3 +1,4 @@
 *.so
 *.o
 rust/target
+python/foo_cffi.*

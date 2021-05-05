@@ -1,5 +1,5 @@
-#ifndef __FOO_H__
-#define __FOO_H__
+/* This file defines the shared bindings between C and the Python FFI module
+ * taken from `sample-ffi/c/foo.h` */
 
 struct Foo {
 	int bar;
@@ -22,5 +22,3 @@ void foo_free(struct Foo *f);
  * @param f A Foo pointer (not nullable)
  */
 void foo_hello_world(struct Foo *f);
-
-#endif /* __FOO_H__ */
