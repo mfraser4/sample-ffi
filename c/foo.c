@@ -13,7 +13,7 @@ void foo_free(struct Foo *f)
 		free(f);
 }
 
-void print_hello_world(struct Foo *f)
+void foo_hello_world(struct Foo *f)
 {
 	if (f)
 		printf("hello, world! I have a value of %d\n", f->bar);
